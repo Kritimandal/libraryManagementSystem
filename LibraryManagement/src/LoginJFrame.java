@@ -117,8 +117,7 @@ public class LoginJFrame extends javax.swing.JFrame {
        
         String username = txtUsername.getText();
         String password = txtPassword.getText();
-        
-        //if (username.equals("admin") && password.equals("admin@123")){
+
         if (!username.isEmpty()) {
             new MainJFrame(username, password).setVisible(true);
         }
